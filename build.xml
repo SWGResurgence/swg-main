@@ -401,7 +401,7 @@
   <target name="build_planet_crc" description="creates the planet crc file" depends="compile_tab">
     <exec executable="utils/build_planet_crc_string_tables.py" dir="${basedir}">
       <env key="PATH" value="${env.PATH}:${tools_home}"/>
-    </exec
+    </exec>
   </target>
 
 	<!-- Creates SQL (insert statements) to get all the CRC Templates into the database -->
