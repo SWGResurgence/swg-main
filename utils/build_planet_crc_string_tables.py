@@ -8,9 +8,9 @@ ifffile = './data/sku.0/sys.shared/compiled/game/misc/planet_crc_string_table.if
 
 if not path.exists(path.dirname(ifffile)):
         makedirs(path.dirname(ifffile)
-    
-crc_call = ['./tools/buildCrcStringTable.pl', ifffile, inputfile]
-    
+
+crc_call = ['./tools/buildCrcStringTable.pl', inputfile, ifffile]
+
 p = Popen(crc_call, stdin=PIPE, stdout=PIPE)
-   
+
 p.communicate()
