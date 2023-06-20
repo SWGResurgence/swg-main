@@ -1,0 +1,2 @@
+sku.0/sys.client/built/game/misc/object_template_crc_string_table.tab
+sku.0/sys.server/built/game/misc/object_template_crc_string_table.tab

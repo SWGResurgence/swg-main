@@ -14,9 +14,9 @@
 	<property name="build" location="${basedir}/build"/>
 
 	<!-- Database Service Name is derived to make it easier in the properties file -->
-	<property name="service_name" value="//127.0.0.1/${db_service}"/>
+	<property name="service_name" value="//96.43.140.236/${db_service}"/>
 
-	<property name="dbip" value="${ADDR4}"/>
+	<property name="dbip" value="96.43.140.236"/>
 
 	<!-- Setup Source Directories -->
 	<property name="exe" location="${basedir}/exe"/>
